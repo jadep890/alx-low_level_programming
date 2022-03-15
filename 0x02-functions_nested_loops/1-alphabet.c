@@ -5,9 +5,16 @@
  * followed by a new line
  * Return: Always 0 (Success)
  */
-
-int main(void)
+void print_aphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char ch;
+
+	ch = 'a';
+
+	while (ch <= 'z')
+	{
+		_putchar(ch);
+		ch++;
+	}
+	_putchar('\n');
 }
