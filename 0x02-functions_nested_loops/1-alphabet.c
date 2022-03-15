@@ -5,7 +5,7 @@
  * print_alphabet- Print lowercase alphabets
  */
 
-void print_alphabet(void)
+int main(void)
 {
 	char ch = 'a';
 
