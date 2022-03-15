@@ -18,4 +18,5 @@ int main(void)
 		ch++;
 	}
 	_putchar('\n');
+	return (0);
 }
