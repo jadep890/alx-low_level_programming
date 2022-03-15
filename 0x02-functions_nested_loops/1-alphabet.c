@@ -1,5 +1,5 @@
 #include <unistd.h>
-#include "main.c"
+#include "main.h"
 
 /**
  * main - prints the alphabet, in lowercase, followed by a new line
