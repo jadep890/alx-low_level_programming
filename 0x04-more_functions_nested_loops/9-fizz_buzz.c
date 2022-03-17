@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - fizz buzz
- * Rteurn: 0
+ * Return: 0
  */
 
 int main(void)
@@ -18,7 +18,7 @@ int main(void)
 		{
 			printf("Buzz");
 		}
-		if ( i % 3 != 0 && i % 5 != 0)
+		if (i % 3 != 0 && i % 5 != 0)
 		{
 			printf("%i", i);
 		}
