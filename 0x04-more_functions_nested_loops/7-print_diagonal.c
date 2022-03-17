@@ -3,12 +3,10 @@
  * print_diagonal - print diagonal spaces
  * @n: type a digit
  */
-
-void print_diagonal(int n)
+ void print_diagonal(int n)
 {
 	int i, j;
-
-	for (i = 0; i < n; i++)
+ 	for (i = 0; i < n; i++)
 	{
 		for (j = 0; j < i; j++)
 		{
@@ -17,8 +15,7 @@ void print_diagonal(int n)
 		_putchar('\\');
 		_putchar('\n');
 	}
-
-	if (n < 1)
+ 	if (n < 1)
 	{
 		_putchar('\n');
 	}
