@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print the largest prime number
- * Rteurn: Allways 0
+ * Return: Allways 0
  */
 
 int main(void)
@@ -12,7 +12,7 @@ int main(void)
 
 	while (number != 1)
 	{
-		if (numbers % div == 0)
+		if (number % div == 0)
 		{
 			number = number / div;
 			prime = div;

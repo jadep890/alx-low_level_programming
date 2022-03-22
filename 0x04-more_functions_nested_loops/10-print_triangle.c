@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_triangle - print triangle
- * @size: type a digit
+ * @size: type an integer
  */
 
 void print_triangle(int size)
